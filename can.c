@@ -148,7 +148,7 @@ void SendCAN1(u32 u32ID,u8 u8Std,u8 u8DLC, u8* pData)
 	i++;
   }
 }
-
+// 추가 수정 되엇다.
 //메인과 통신보드 사용
 void SendCAN2(u32 u32ID,u8 u8Std,u8 u8DLC, u8* pData)
 {
