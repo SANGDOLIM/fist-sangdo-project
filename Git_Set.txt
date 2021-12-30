@@ -1,0 +1,52 @@
+or create a new repository on the command line
+echo "# fist-sangdo-project" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/SANGDOLIM/fist-sangdo-project.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/SANGDOLIM/fist-sangdo-project.git
+git branch -M main
+git push -u origin main
+
+
+'-------------------------------------------------------------------------
+<GitHub 설정>
+1. Github 구글 검색 
+2. GitHub 가입
+3. 로그인 하기 ->sig up
+4. new 클릭
+5. 프로젝트 이름 써주기
+ - public  공개모드
+6. create repository클릭
+
+<Git 설정 방법>
+1.구글 Git 검색
+ git-scm.com
+2. 다운로드 클릭
+3. 다운로드 받기
+4. 다운로드 후 Git Brach 클릭
+5. git config -- global user.name "이름"
+6. git config -- global user.email "메일 주소"
+7. git config --list
+  name과 email 주소가 정확한지 확인
+
+<VSC 설정>
+1. Terminal -> new Terminal 선택
+2. git init -> 프로젝트 처음 한번 실행
+3. git add .  -> .  모든 파일 , 특정파일 예)git add can.c
+4. git status -> 상태를 알려주는 명령어 필수 아님
+5. 히스토리 제작  : git commit  -m "first commit" 최종 -> 정말 최종 -> 정말 정말 최종
+6. git remote add origin https://github.com/SANGDOLIM/fist-sangdo-project.git
+  아무일 안생이면 성공
+7. git remote -v  연결 상태 확인
+8. 마스터로보내기 : git push origin master로 보내기
+9. gitHub 새로 고침
+
+<업데이트>
+1. git add 파일명  : 추가할 파일 
+2. git commit  -m "second commit" : 히스톨리 작성
+3. git push origin master 마스터로 보내기 : 마스터 보내기
+4. gitHub 새로 고침
